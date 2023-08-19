@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-        background-color: gainsboro;
+    background-size: cover;
+    background-position: center;
+        background-image: url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+        height: 1450px;
+
 }
 nav{
     background-color: black;
@@ -22,26 +27,27 @@ nav{
     margin-left: 20px;
     color: white;
     cursor: pointer;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .navb{
 width: 60%;
 display: flex;
 justify-content: flex-end;
-margin-right: 50px;
+margin-right: 5%;
 }
 
 .navb a{
     font-size: 20px;
     text-decoration: none;
     color: white;
-    margin-left: 20px;
-    flex-direction: column;
+    margin-left: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .navb a:hover{
-    color: crimson;
+    color: #87CEFA;
 }
 
 
@@ -50,12 +56,13 @@ margin-right: 50px;
 
 .table-container{
     width: 80%;
-    background-color: aquamarine;
+    background-color: white;
     margin: 50px auto;
     padding: 30px 20px;
     border: 1px solid black;
     border-radius: 5px;
     box-sizing: border-box;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 table{
@@ -80,7 +87,8 @@ padding: 5px;
 }
 
 td>a{
-    padding: 10px;
+    color: black;
+    text-decoration: none;
     position: relative;
     top: 5px;
 }
@@ -89,6 +97,11 @@ tr td{
     padding: 10px;
 }
 
+
+.port{
+    display: flex;
+    border: none;
+}
 
 /* Form */
 
@@ -101,6 +114,8 @@ tr td{
     border: 1px solid black;
     border-radius: 5px;
     box-sizing: border-box;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 
 .fitem1{
